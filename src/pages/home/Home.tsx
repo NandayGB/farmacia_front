@@ -1,4 +1,5 @@
 import './Home.css';
+import  homeLogo from '../../assets/Farmacia2.jpg';
 
 function Home() {
     return (
@@ -17,7 +18,7 @@ function Home() {
             </div>
   
             <div className="flex justify-center ">
-             
+            <img src={homeLogo} alt="" className='w-2/3' />
       
             </div>
           </div>
